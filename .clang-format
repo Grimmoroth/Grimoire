@@ -1,0 +1,44 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+
+# --- Line Length & Wrapping ---
+ColumnLimit: 70
+# Forces long return types to stay on their own line
+AlwaysBreakAfterReturnType: AllDefinitions
+# Forces parameters to a new line and aligns them to the left margin
+AlignAfterOpenBracket: AlwaysBreak
+BinPackParameters: false
+
+# --- Braces (Allman Style) ---
+# Using the preset 'Allman' to ensure maximum version compatibility
+# This puts { on a new line for functions, classes, and namespaces.
+BreakBeforeBraces: Allman
+
+# --- Braced Initializers ---
+# Formats {1, 2, 3} for uniform initialization
+Cpp11BracedListStyle: true
+
+# --- Indentation ---
+IndentWidth: 4
+# Aligns 'public:' and 'private:' with the class keyword
+AccessModifierOffset: -4
+# Indents code inside namespaces
+NamespaceIndentation: All
+# Ensures comments at the end of namespaces are managed
+FixNamespaceComments: true
+
+# --- Refinements ---
+# Modern C++ standard: int* p_ptr;
+PointerAlignment: Left
+SpaceAfterCStyleCast: true
+
+# --- Performance & Safety ---
+# Sorts your includes alphabetically automatically
+Standard: Latest
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+# Forces the break before the comma or colon
+BreakConstructorInitializers: BeforeComma
+# Aligns the commas and colon vertically
+ConstructorInitializerIndentWidth: 0

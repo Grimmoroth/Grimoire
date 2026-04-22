@@ -33,7 +33,7 @@
 build/
 cmake-build-*/
 out/
-.cache
+.cache/
 
 .conan/
 CMakeUserPresets.json

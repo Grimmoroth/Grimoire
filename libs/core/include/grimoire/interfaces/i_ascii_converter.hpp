@@ -18,7 +18,7 @@ namespace grimoire::core::interfaces
         virtual ~IAsciiConverter() = default;
 
         IAsciiConverter(const IAsciiConverter&) = delete;
-        IAsciiConverter operator=(const IAsciiConverter&) = delete;
+        IAsciiConverter& operator=(const IAsciiConverter&) = delete;
         IAsciiConverter(IAsciiConverter&&) = delete;
         IAsciiConverter& operator=(IAsciiConverter&&) = delete;
 

@@ -16,7 +16,7 @@ namespace grimoire::core::interfaces
         virtual ~IFrameSource() = default;
 
         IFrameSource(const IFrameSource&) = delete;
-        IFrameSource operator=(const IFrameSource&) = delete;
+        IFrameSource& operator=(const IFrameSource&) = delete;
         IFrameSource(IFrameSource&&) = delete;
         IFrameSource& operator=(IFrameSource&&) = delete;
 

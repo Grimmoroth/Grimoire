@@ -14,7 +14,7 @@ namespace grimoire::core::interfaces
         virtual ~IFrameProcessor() = default;
 
         IFrameProcessor(const IFrameProcessor&) = delete;
-        IFrameProcessor operator=(const IFrameProcessor&) = delete;
+        IFrameProcessor& operator=(const IFrameProcessor&) = delete;
         IFrameProcessor(IFrameProcessor&&) = delete;
         IFrameProcessor& operator=(IFrameProcessor&&) = delete;
 

@@ -26,6 +26,10 @@ CheckOptions:
     value: "p_"
   - key: readability-identifier-naming.EnumConstantCase
     value: UPPER_CASE
+  - key: readability-identifier-naming.AbstractClassCase
+    value: CamelCase
+  - key: readability-identifier-naming.AbstractClassPrefix
+    value: 'I'
 
   # --- Modernization Rules ---
   # This enforces: int x{5}; instead of int x = 5;

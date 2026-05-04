@@ -1,8 +1,5 @@
-add_executable(grimoire_virtualcam)
-
-target_sources(grimoire_virtualcam
-    PRIVATE
-        main.cpp
+add_executable(grimoire_virtualcam
+    main.cpp
 )
 
 target_link_libraries(grimoire_virtualcam

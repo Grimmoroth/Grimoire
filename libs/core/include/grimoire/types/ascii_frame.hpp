@@ -45,7 +45,7 @@ namespace grimoire::core::types
         }
 
         [[nodiscard]] const Cell&
-        at(std::size_t p_row, std::size_t p_col)
+        at(std::size_t p_row, std::size_t p_col) const
         {
             return cells.at(p_row).at(p_col);
         }

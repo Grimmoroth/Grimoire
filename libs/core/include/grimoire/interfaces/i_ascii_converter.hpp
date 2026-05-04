@@ -29,7 +29,7 @@ namespace grimoire::core::interfaces
             const noexcept = 0;
 
     protected:
-        IAsciiConverter() = default;
-    }
+        IAsciiConverter();
+    };
 };  // namespace grimoire::core::interfaces
 #endif

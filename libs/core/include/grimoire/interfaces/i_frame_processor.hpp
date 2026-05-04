@@ -25,7 +25,7 @@ namespace grimoire::core::interfaces
         [[nodiscard]] virtual int targetRows() const noexcept = 0;
 
     protected:
-        IFrameProcessor() = default;
+        IFrameProcessor();
     };
 };  // namespace grimoire::core::interfaces
 

@@ -27,7 +27,7 @@ namespace grimoire::core::interfaces
         [[nodiscard]] virtual bool isOpen() const noexcept = 0;
 
     protected:
-        IFrameSource() = default;
+        IFrameSource();
     };
 };  // namespace grimoire::core::interfaces
 
